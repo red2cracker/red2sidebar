@@ -2,15 +2,15 @@
     DEMO STYLE
 */
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
-
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nanum Myeongjo', sans-serif;
     background: #fff;
 }
 
 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nanum Myeongjo', sans-serif;
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
@@ -165,6 +165,21 @@ a.article, a.article:hover {
     padding: 20px;
     min-height: 100vh;
     transition: all 0.3s;
+}
+
+#content a:link {
+  color: #00f;
+}
+#content a:visited {
+  color: #00f;
+}
+#content a:hover {
+  color: #f00;
+  text-decoration: underline;
+}
+#content a:active {
+  color: #f00;
+  text-decoration: underline;
 }
 
 /* ---------------------------------------------------
