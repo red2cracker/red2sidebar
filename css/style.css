@@ -1,18 +1,23 @@
 /*
     DEMO STYLE
 */
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
-@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+/*@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";*/
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body {
-    font-family: 'Nanum Myeongjo', sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
     background: #fff;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
 p {
-    font-family: 'Nanum Myeongjo', sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
     font-size: 1.1em;
-    font-weight: 300;
+    /*font-weight: 300;*/
     line-height: 1.7em;
     color: #000;
 }
@@ -72,7 +77,8 @@ a, a:hover, a:focus {
 
 #sidebar .sidebar-header h1 {
     margin: 0px;
-	letter-spacing: -1px;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: -2px;
 }
 
 #sidebar .sidebar-header h1 a {
@@ -87,6 +93,7 @@ a, a:hover, a:focus {
 
 #sidebar ul.components {
     padding: 0px;
+	/*border-top: 1px solid #47748b;*/
     border-bottom: 1px solid #47748b;
 }
 
@@ -167,6 +174,10 @@ a.article, a.article:hover {
     transition: all 0.3s;
 }
 
+#content a {
+  transition: all 0s;
+  text-decoration: underline;
+}
 #content a:link {
   color: #00f;
 }
@@ -175,11 +186,9 @@ a.article, a.article:hover {
 }
 #content a:hover {
   color: #f00;
-  text-decoration: underline;
 }
 #content a:active {
   color: #f00;
-  text-decoration: underline;
 }
 
 /* ---------------------------------------------------
