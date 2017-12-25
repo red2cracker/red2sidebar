@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #fafafa;
+    background: #fff;
 }
 
 p {
@@ -14,7 +14,7 @@ p {
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;
+    color: #000;
 }
 
 a, a:hover, a:focus {
@@ -66,12 +66,27 @@ a, a:hover, a:focus {
 }
 
 #sidebar .sidebar-header {
-    padding: 20px;
+    /*padding: 10px;*/
     background: #6d7fcc;
 }
 
+#sidebar .sidebar-header h1 {
+    margin: 0px;
+	letter-spacing: -1px;
+}
+
+#sidebar .sidebar-header h1 a {
+	display: block;
+	padding: 10px;
+  /*padding-left: 55px;
+  background-image: url("../img/red2mamm.png");
+  background-repeat: no-repeat;
+  background-position: 0px center;*/
+}
+
+
 #sidebar ul.components {
-    padding: 20px 0;
+    padding: 0px;
     border-bottom: 1px solid #47748b;
 }
 
