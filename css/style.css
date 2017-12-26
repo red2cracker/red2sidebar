@@ -114,7 +114,7 @@ a, a:hover, a:focus {
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
-    background: #6d7fcc;
+    /*background: #6d7fcc;*/ /* 게임 클릭시 배경색 그대로 */
 }
 
 
