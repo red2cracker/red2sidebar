@@ -2,8 +2,8 @@
     DEMO STYLE
 */
 /*@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";*/
-/*@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');*/
+/*@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);*/
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans');*/
 
 body {
     font-family: "Nanum Gothic", sans-serif;
@@ -162,6 +162,18 @@ a.article, a.article:hover {
     background: #6d7fcc !important;
     color: #fff !important;
 }
+
+
+#cse-search-box {
+  
+}
+
+#cse-search-button {
+  border: 0px;
+  outline: 0px;
+  padding: 5px;
+}
+
 
 
 
