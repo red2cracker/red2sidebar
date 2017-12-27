@@ -100,6 +100,11 @@ a, a:hover, a:focus {
     border-bottom: 1px solid #000; /*#47748b;*/
 }
 
+#sidebar ul.components > li:first-child {
+    border-bottom: 1px solid #000; /*#47748b;*/
+}
+
+
 #sidebar ul p {
     color: #fff;
     padding: 10px;
