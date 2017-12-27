@@ -184,7 +184,9 @@ a.article, a.article:hover {
   background-color: #ecf0f1;
   color: #000;
 }
-
+#cse-search-button:hover {
+  color: #f00;
+}
 
 
 
