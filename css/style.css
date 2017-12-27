@@ -3,7 +3,7 @@
 */
 /*@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";*/
 /*@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);*/
-/*@import url('https://fonts.googleapis.com/css?family=Open+Sans');*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body {
     font-family: "Nanum Gothic", sans-serif;
@@ -166,43 +166,23 @@ a.article, a.article:hover {
 
 /* 구글 검색 */
 #cse-search-box {
-  margin: 0px;
-  padding-left: 10px; /* 0px 10px; */
-  height: 30px;
-  /*background-color: #ccc;*/
+  padding-left: 10px;
 }
 
 #cse-keyword {
-  border: 0px!important;
-  outline: 0px;
-  padding: 0px;
-  /*font-size: 20px;*/
-  width: 150px;
-  height: 30px;
+  padding: 3px;
+  border: 1px solid #000!important;
+  width: 150px; /* 아이디, 비번 입력창 너비 재설정 */
+  height: 34px;
   color: #000;
-  background: rgb(255, 255, 255)!important;
-}
-
-#cse-keyword::-webkit-input-placeholder {
-   color:transparent;
-}
-#cse-keyword::-moz-input-placeholder {
-   color:transparent;
-}
-#cse-keyword:-ms-input-placeholder {
-   color:transparent;
 }
 
 #cse-search-button {
   border: 0px;
-  outline: 0px;
-  padding: 0px;
-  background-color: #f1c40f;
-  color: #fff;
-  width: 40px;
-  height: 30px;
-  /*line-height: 30px;*/
-  /*vertical-align: top;*/
+  width: 45px;
+  height: 32px;
+  background-color: #ecf0f1;
+  color: #000;
 }
 
 
