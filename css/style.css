@@ -83,11 +83,12 @@ a, a:hover, a:focus {
 
 #sidebar .sidebar-header h1 a {
 	display: block;
-	padding: 10px;
-  /*padding-left: 55px;
-  background-image: url("../img/red2mamm.png");
+	/*padding: 10px;*/
+  padding: 10px 10px 10px 65px;
+  background-image: url("../img/red2mamm.svg");
   background-repeat: no-repeat;
-  background-position: 0px center;*/
+  background-position: 10px center;
+  background-size: 50px 40px;
 }
 #sidebar .sidebar-header h1 span {
 	font-weight: normal;
@@ -137,7 +138,7 @@ a[aria-expanded="true"]::before {
 }
 
 
-ul ul a {
+#sidebar ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
     background: #282b31; /*#6d7fcc;*/
