@@ -89,7 +89,9 @@ a, a:hover, a:focus {
   background-repeat: no-repeat;
   background-position: 0px center;*/
 }
-
+#sidebar .sidebar-header h1 span {
+	font-weight: normal;
+}
 
 #sidebar ul.components {
     padding: 0px;
