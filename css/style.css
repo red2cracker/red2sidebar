@@ -110,7 +110,7 @@ a, a:hover, a:focus {
     display: block;
 }
 #sidebar ul li a:hover {
-    color: #7386D5;
+    color: #f00; /*#7386D5;*/
     background: #fff;
 }
 
@@ -183,8 +183,8 @@ a.article, a.article:hover {
   border: 0px;
   width: 45px;
   height: 32px;
-  background-color: #ecf0f1;
-  color: #000;
+  background-color: #2567FC; /*#ecf0f1;*/
+  color: #fff;
 }
 #cse-search-button:hover {
   color: #f00;
